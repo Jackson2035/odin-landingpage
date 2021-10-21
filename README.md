@@ -1,0 +1,1 @@
+This is a project from The Odin Project designed to practice my HTML and CSS skills by creating a landing page for a website. This page has no functionality and focuses instead on being able to display elements and style them in an appealing way.
