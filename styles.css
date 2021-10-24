@@ -1,0 +1,104 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+/* START OF HEADER CSS */
+.top {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 0 10rem;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+}
+
+.header-logo {
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+.header a {
+    color: #E5E7EB;
+    font-size: 18px;
+    margin-left: 20px;
+}
+
+.nav {
+    margin-left: auto;
+}
+/* END OF HEADER CSS */
+
+.top-content {
+    display: flex;
+    gap: 32px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.top-text {
+    flex-wrap: wrap;
+    flex: 1;
+}
+
+h1{
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+    margin: 0;
+}
+
+.top-text p {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 0;
+}
+
+.top-img {
+    flex-grow: inherit;
+}
+
+.btn {
+    background-color: #3882F6;
+    color: white;
+    padding: 5px 15px;
+    border: none;
+    border-radius: 8px;
+    margin: 10px auto;
+    font-weight: bold;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+/* END OF TOP CONTENT CSS */
+
+/* START OF CARD-CONTENT CSS */
+
+.card-content {
+    padding: 0 10rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-header {
+    align-self: center;
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    width: 200px;
+    flex-wrap: wrap;
+    text-align: center;
+}
