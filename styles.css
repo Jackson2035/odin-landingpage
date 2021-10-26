@@ -1,6 +1,7 @@
 body {
     display: flex;
     flex-direction: column;
+    height: 100vh;
 }
 
 /* START OF HEADER CSS */
@@ -30,6 +31,7 @@ body {
     margin-left: auto;
 }
 /* END OF HEADER CSS */
+/* START OF TOP CONTENT */
 
 .top-content {
     display: flex;
@@ -63,7 +65,7 @@ h1{
 .btn {
     background-color: #3882F6;
     color: white;
-    padding: 5px 15px;
+    padding: 5px 25px;
     border: none;
     border-radius: 8px;
     margin: 10px auto;
@@ -102,3 +104,78 @@ h1{
     flex-wrap: wrap;
     text-align: center;
 }
+
+/* END OF CARD CONTENT */
+/* START OF QUOTE CONTENT */
+
+.quote-content {
+    background-color: #E5E7EB;
+    padding: 0 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-content p {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    margin-bottom: 0;
+}
+
+.quote-content h3 {
+    font-size: 24px;
+    margin-top: 0;
+    align-self: flex-end;
+}
+
+/* END OF QUOTE CONTENT */
+/* START OF BOTTOM CONTENT */
+
+.bottom-content {
+    padding: 2rem 10rem;
+}
+
+.card-large {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882F6;
+    padding: 18px 30px;
+    border-radius: 8px;
+}
+
+.card-large-text {
+    color: white;
+}
+
+.card-large-text h4 {
+    margin: 0;
+    font-weight: bold;
+}
+
+.card-large-text p {
+    margin: 0;
+    color: #E5E7EB;
+}
+
+.btn-action {
+    background-color: #3882F6;
+    color: white;
+    border: 2px solid white;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+/* END OF BOTTOM CONTENT */
+/* START OF FOOTER */
+
+.footer {
+    padding: 1rem 10rem;
+    text-align: center;
+    background-color: #1F2937;
+    color: #E5E7EB;
+}
+
+/* END OF FOOTER */
